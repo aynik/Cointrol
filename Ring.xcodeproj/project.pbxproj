@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		6E3B315721D5FD800066F767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B315621D5FD800066F767 /* AppDelegate.swift */; };
-		6E3B315921D5FD800066F767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B315821D5FD800066F767 /* ViewController.swift */; };
-		6E3B315C21D5FD800066F767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3B315A21D5FD800066F767 /* Main.storyboard */; };
+		6E3B315921D5FD800066F767 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B315821D5FD800066F767 /* AccountViewController.swift */; };
 		6E3B315E21D5FD810066F767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3B315D21D5FD810066F767 /* Assets.xcassets */; };
 		6E3B316121D5FD810066F767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3B315F21D5FD810066F767 /* LaunchScreen.storyboard */; };
-		6E3B316621D5FD810066F767 /* Ring WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6E3B316521D5FD810066F767 /* Ring WatchKit App.app */; };
-		6E3B316C21D5FD810066F767 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3B316A21D5FD810066F767 /* Interface.storyboard */; };
+		6E3B316621D5FD810066F767 /* Ring WatchKit App.app in Embed Watch Content (5 items) */ = {isa = PBXBuildFile; fileRef = 6E3B316521D5FD810066F767 /* Ring WatchKit App.app */; };
 		6E3B316E21D5FD820066F767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3B316D21D5FD820066F767 /* Assets.xcassets */; };
 		6E3B317521D5FD820066F767 /* Ring WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6E3B317421D5FD820066F767 /* Ring WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6E3B317A21D5FD820066F767 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B317921D5FD820066F767 /* InterfaceController.swift */; };
 		6E3B317C21D5FD820066F767 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B317B21D5FD820066F767 /* ExtensionDelegate.swift */; };
 		6E3B317E21D5FD830066F767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3B317D21D5FD830066F767 /* Assets.xcassets */; };
+		6E5AE26F21D77C1700AA55E6 /* BitcoinKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5AE26A21D77C0700AA55E6 /* BitcoinKit.framework */; };
+		6E5AE27021D77C1D00AA55E6 /* BitcoinKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5AE26A21D77C0700AA55E6 /* BitcoinKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6ED7A7BA21D5FE310021C27B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ED7A7B921D5FE310021C27B /* Main.storyboard */; };
+		6ED7A7BC21D5FE9F0021C27B /* UITextViewPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7A7BB21D5FE9E0021C27B /* UITextViewPlaceholder.swift */; };
+		6ED7A7BE21D5FEAA0021C27B /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7A7BD21D5FEAA0021C27B /* Account.swift */; };
+		6ED7A7C421D5FF6E0021C27B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ED7A7C321D5FF6D0021C27B /* Interface.storyboard */; };
+		6ED7A7C621D5FF8A0021C27B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7A7C521D5FF8A0021C27B /* InterfaceController.swift */; };
+		6ED7A7D421D60D9B0021C27B /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7A7BD21D5FEAA0021C27B /* Account.swift */; };
+		6EE3B63721D61F2B00D8F850 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7A7C521D5FF8A0021C27B /* InterfaceController.swift */; };
+		6EEE9A7B21D88C5A00BEFB99 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE9A7A21D88C5A00BEFB99 /* AccountTableViewCell.swift */; };
+		6EEE9A7D21D88C9C00BEFB99 /* AccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE9A7C21D88C9C00BEFB99 /* AccountTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +44,61 @@
 			remoteGlobalIDString = 6E3B317321D5FD820066F767;
 			remoteInfo = "Ring WatchKit Extension";
 		};
+		6E5AE26921D77C0700AA55E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5AE26421D77C0600AA55E6 /* BitcoinKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 147494C7201F9A29006D1CF8;
+			remoteInfo = BitcoinKit;
+		};
+		6E5AE26B21D77C0700AA55E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5AE26421D77C0600AA55E6 /* BitcoinKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 147494D0201F9A29006D1CF8;
+			remoteInfo = BitcoinKitTests;
+		};
+		6E5AE26D21D77C1300AA55E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5AE26421D77C0600AA55E6 /* BitcoinKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 147494C6201F9A29006D1CF8;
+			remoteInfo = BitcoinKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		6E2513F921D75B6E006A48E2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E25141421D7654C006A48E2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6E5AE27021D77C1D00AA55E6 /* BitcoinKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E25141521D7654C006A48E2 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E3B318521D5FD830066F767 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,15 +110,15 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E3B318921D5FD830066F767 /* Embed Watch Content */ = {
+		6E3B318921D5FD830066F767 /* Embed Watch Content (5 items) */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				6E3B316621D5FD810066F767 /* Ring WatchKit App.app in Embed Watch Content */,
+				6E3B316621D5FD810066F767 /* Ring WatchKit App.app in Embed Watch Content (5 items) */,
 			);
-			name = "Embed Watch Content";
+			name = "Embed Watch Content (5 items)";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -66,20 +126,25 @@
 /* Begin PBXFileReference section */
 		6E3B315321D5FD800066F767 /* Ring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3B315621D5FD800066F767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E3B315821D5FD800066F767 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6E3B315B21D5FD800066F767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E3B315821D5FD800066F767 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		6E3B315D21D5FD810066F767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E3B316021D5FD810066F767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E3B316221D5FD810066F767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E3B316521D5FD810066F767 /* Ring WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ring WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E3B316B21D5FD810066F767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		6E3B316D21D5FD820066F767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E3B316F21D5FD820066F767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E3B317421D5FD820066F767 /* Ring WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ring WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E3B317921D5FD820066F767 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		6E3B317B21D5FD820066F767 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		6E3B317D21D5FD830066F767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E3B317F21D5FD830066F767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5AE26421D77C0600AA55E6 /* BitcoinKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BitcoinKit.xcodeproj; path = BitcoinKit/BitcoinKit.xcodeproj; sourceTree = "<group>"; };
+		6ED7A7B921D5FE310021C27B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6ED7A7BB21D5FE9E0021C27B /* UITextViewPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITextViewPlaceholder.swift; path = ../../KeyRightOld/KeyRing/UITextViewPlaceholder.swift; sourceTree = "<group>"; };
+		6ED7A7BD21D5FEAA0021C27B /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		6ED7A7C321D5FF6D0021C27B /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		6ED7A7C521D5FF8A0021C27B /* InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		6EEE9A7A21D88C5A00BEFB99 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		6EEE9A7C21D88C9C00BEFB99 /* AccountTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E5AE26F21D77C1700AA55E6 /* BitcoinKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,10 +169,12 @@
 		6E3B314A21D5FD800066F767 = {
 			isa = PBXGroup;
 			children = (
+				6E5AE26421D77C0600AA55E6 /* BitcoinKit.xcodeproj */,
 				6E3B315521D5FD800066F767 /* Ring */,
 				6E3B316921D5FD810066F767 /* Ring WatchKit App */,
 				6E3B317821D5FD820066F767 /* Ring WatchKit Extension */,
 				6E3B315421D5FD800066F767 /* Products */,
+				6EB03E8921D62C4700ED222B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,9 +192,13 @@
 			isa = PBXGroup;
 			children = (
 				6E3B315621D5FD800066F767 /* AppDelegate.swift */,
-				6E3B315821D5FD800066F767 /* ViewController.swift */,
-				6E3B315A21D5FD800066F767 /* Main.storyboard */,
+				6E3B315821D5FD800066F767 /* AccountViewController.swift */,
+				6EEE9A7A21D88C5A00BEFB99 /* AccountTableViewCell.swift */,
+				6EEE9A7C21D88C9C00BEFB99 /* AccountTableViewController.swift */,
+				6ED7A7BD21D5FEAA0021C27B /* Account.swift */,
+				6ED7A7BB21D5FE9E0021C27B /* UITextViewPlaceholder.swift */,
 				6E3B315D21D5FD810066F767 /* Assets.xcassets */,
+				6ED7A7B921D5FE310021C27B /* Main.storyboard */,
 				6E3B315F21D5FD810066F767 /* LaunchScreen.storyboard */,
 				6E3B316221D5FD810066F767 /* Info.plist */,
 			);
@@ -136,7 +208,7 @@
 		6E3B316921D5FD810066F767 /* Ring WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				6E3B316A21D5FD810066F767 /* Interface.storyboard */,
+				6ED7A7C321D5FF6D0021C27B /* Interface.storyboard */,
 				6E3B316D21D5FD820066F767 /* Assets.xcassets */,
 				6E3B316F21D5FD820066F767 /* Info.plist */,
 			);
@@ -146,12 +218,28 @@
 		6E3B317821D5FD820066F767 /* Ring WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				6E3B317921D5FD820066F767 /* InterfaceController.swift */,
+				6ED7A7C521D5FF8A0021C27B /* InterfaceController.swift */,
 				6E3B317B21D5FD820066F767 /* ExtensionDelegate.swift */,
 				6E3B317D21D5FD830066F767 /* Assets.xcassets */,
 				6E3B317F21D5FD830066F767 /* Info.plist */,
 			);
 			path = "Ring WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6E5AE26521D77C0600AA55E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5AE26A21D77C0700AA55E6 /* BitcoinKit.framework */,
+				6E5AE26C21D77C0700AA55E6 /* BitcoinKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB03E8921D62C4700ED222B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,11 +252,14 @@
 				6E3B314F21D5FD800066F767 /* Sources */,
 				6E3B315021D5FD800066F767 /* Frameworks */,
 				6E3B315121D5FD800066F767 /* Resources */,
-				6E3B318921D5FD830066F767 /* Embed Watch Content */,
+				6E3B318921D5FD830066F767 /* Embed Watch Content (5 items) */,
+				6E25141421D7654C006A48E2 /* Embed Frameworks */,
+				6E25141521D7654C006A48E2 /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6E5AE26E21D77C1300AA55E6 /* PBXTargetDependency */,
 				6E3B316821D5FD810066F767 /* PBXTargetDependency */,
 			);
 			name = Ring;
@@ -200,6 +291,7 @@
 				6E3B317021D5FD820066F767 /* Sources */,
 				6E3B317121D5FD820066F767 /* Frameworks */,
 				6E3B317221D5FD820066F767 /* Resources */,
+				6E2513F921D75B6E006A48E2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,6 +334,12 @@
 			mainGroup = 6E3B314A21D5FD800066F767;
 			productRefGroup = 6E3B315421D5FD800066F767 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6E5AE26521D77C0600AA55E6 /* Products */;
+					ProjectRef = 6E5AE26421D77C0600AA55E6 /* BitcoinKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6E3B315221D5FD800066F767 /* Ring */,
@@ -251,14 +349,31 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		6E5AE26A21D77C0700AA55E6 /* BitcoinKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BitcoinKit.framework;
+			remoteRef = 6E5AE26921D77C0700AA55E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E5AE26C21D77C0700AA55E6 /* BitcoinKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BitcoinKitTests.xctest;
+			remoteRef = 6E5AE26B21D77C0700AA55E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		6E3B315121D5FD800066F767 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ED7A7BA21D5FE310021C27B /* Main.storyboard in Resources */,
 				6E3B316121D5FD810066F767 /* LaunchScreen.storyboard in Resources */,
 				6E3B315E21D5FD810066F767 /* Assets.xcassets in Resources */,
-				6E3B315C21D5FD800066F767 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,8 +381,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ED7A7C421D5FF6E0021C27B /* Interface.storyboard in Resources */,
 				6E3B316E21D5FD820066F767 /* Assets.xcassets in Resources */,
-				6E3B316C21D5FD810066F767 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +401,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3B315921D5FD800066F767 /* ViewController.swift in Sources */,
+				6EE3B63721D61F2B00D8F850 /* InterfaceController.swift in Sources */,
+				6ED7A7BC21D5FE9F0021C27B /* UITextViewPlaceholder.swift in Sources */,
+				6EEE9A7D21D88C9C00BEFB99 /* AccountTableViewController.swift in Sources */,
+				6ED7A7BE21D5FEAA0021C27B /* Account.swift in Sources */,
+				6EEE9A7B21D88C5A00BEFB99 /* AccountTableViewCell.swift in Sources */,
+				6E3B315921D5FD800066F767 /* AccountViewController.swift in Sources */,
 				6E3B315721D5FD800066F767 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +416,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E3B317C21D5FD820066F767 /* ExtensionDelegate.swift in Sources */,
-				6E3B317A21D5FD820066F767 /* InterfaceController.swift in Sources */,
+				6ED7A7C621D5FF8A0021C27B /* InterfaceController.swift in Sources */,
+				6ED7A7D421D60D9B0021C27B /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,31 +434,20 @@
 			target = 6E3B317321D5FD820066F767 /* Ring WatchKit Extension */;
 			targetProxy = 6E3B317621D5FD820066F767 /* PBXContainerItemProxy */;
 		};
+		6E5AE26E21D77C1300AA55E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BitcoinKit;
+			targetProxy = 6E5AE26D21D77C1300AA55E6 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6E3B315A21D5FD800066F767 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E3B315B21D5FD800066F767 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6E3B315F21D5FD810066F767 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6E3B316021D5FD810066F767 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		6E3B316A21D5FD810066F767 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E3B316B21D5FD810066F767 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -464,6 +574,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ4T94M9C3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/CoreBitcoin/build",
+				);
 				INFOPLIST_FILE = "Ring WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -485,6 +602,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ4T94M9C3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/CoreBitcoin/build",
+				);
 				INFOPLIST_FILE = "Ring WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -507,6 +631,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ4T94M9C3;
 				IBSC_MODULE = Ring_WatchKit_Extension;
 				INFOPLIST_FILE = "Ring WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pablo.Ring.watchkitapp;
@@ -525,6 +650,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ4T94M9C3;
 				IBSC_MODULE = Ring_WatchKit_Extension;
 				INFOPLIST_FILE = "Ring WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pablo.Ring.watchkitapp;
@@ -542,10 +668,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ4T94M9C3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/CoreBitcoin/build",
+				);
 				INFOPLIST_FILE = Ring/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/CoreBitcoin/build",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pablo.Ring;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -559,10 +697,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ4T94M9C3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/CoreBitcoin/build",
+				);
 				INFOPLIST_FILE = Ring/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/CoreBitcoin/build",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pablo.Ring;
 				PRODUCT_NAME = "$(TARGET_NAME)";

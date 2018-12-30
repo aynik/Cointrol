@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Ring.xcodeproj">
+      location = "group:../Carthage/Checkouts/BitcoinKit/BitcoinKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
